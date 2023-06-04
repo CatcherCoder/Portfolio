@@ -1,0 +1,211 @@
+@import url(./fonts.css);
+@import url(./media.css);
+
+*{
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--aboutbackgoundColor);
+}
+
+/* Style Root Kit */
+:root{
+    --navbarLinks: rgb(11, 10, 10);
+    --backgoundColor: #FBD2CE;
+    --aboutbackgoundColor: #FDEEE7;
+    --aboutbuttonhref: #FEA9A7;
+    --aboutbuttonhrefHover: #f79695;
+}
+
+
+/* 
+
+ 1- Home Section
+ 2- About Section
+
+*/
+
+/* Home Section */
+/* Header - navbar Start */
+
+nav ul{
+ padding-top: 40px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ margin: 0;
+ align-items: center;
+}
+
+nav ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding-left: 15px;
+}
+
+nav ul li{
+    font-family: "Aesthetic";
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+nav ul li a{
+    text-decoration-line: none;
+    color: var(--navbarLinks);
+    letter-spacing: 4px;
+}
+
+nav ul li:nth-child(3) a{
+    font-size: 30px;
+}
+
+/* Header - navbar End */
+
+/* Hero Section Start */
+header{
+    background-color: var(--backgoundColor);
+}
+
+#hero{
+    padding: 100px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--backgoundColor);
+}
+
+section .heroText{
+    width: 380px;
+    justify-content: justify;
+}
+
+section .heroText p:nth-child(1){
+    font-family: "Cinta";
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+section .heroText p:nth-child(3){
+    padding-top: 0;
+    margin-top: 0;
+    font-family: "Roboto-Light";
+    font-weight: 600;
+    text-align: left;
+}
+
+
+section .heroText h1{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: "Aesthetic";
+    letter-spacing: 5px;
+    font-size: 34px;
+}
+
+section .heroImage img{
+    width: 400px;
+    transform: scale(1.3);
+}
+
+/* Hero Section End */
+
+/* About Section Start */
+
+#about{
+    z-index: 1;
+    display: flex;
+    padding: 50px;
+    margin-bottom: 0;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    flex-direction: row-reverse;
+    background-color: var(--aboutbackgoundColor);
+    align-items: center;
+}
+
+.aboutImage {
+    display: flex;
+    height: auto;
+    width: 100%;
+    border: 10px solid white;
+   
+  }
+  
+  .left-images {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-images img {
+    height: 199px;
+    object-fit: cover;
+  }
+  
+  .right-image {
+    flex-grow: 1;
+    display: grid;
+  }
+  
+  .right-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+.aboutText{
+    width: 100%;
+    padding-left: 127px;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: left;
+}
+
+
+section .aboutText p:nth-child(1){
+    font-family: "Cinta";
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+section .aboutText p:nth-child(3){
+    padding-top: 0;
+    margin-top: 0;
+    font-family: "Roboto-Light";
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+
+section .aboutText h1{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: "Aesthetic";
+    letter-spacing: 5px;
+    font-size: 34px;
+}
+
+section .aboutText a{
+    border: 1px solid var(--aboutbuttonhref);
+    background-color: var(--aboutbuttonhref);
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto-Light";
+    font-weight: 600;
+}
+
+section .aboutText a:hover{
+    border: 1px solid var(--aboutbuttonhrefHover);
+    background-color: var(--aboutbuttonhrefHover);
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Aesthetic";
+    src: url(../fonts/aesthetic_5/Aesthetic-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Cinta";
+    src: url(../fonts/cinta_sehatti/Cinta\ Sehatti\ .ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Black";
+    src: url(../fonts/roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(../fonts/roboto/Roboto-Light.ttf);
+}
